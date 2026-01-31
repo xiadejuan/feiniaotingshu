@@ -1,0 +1,62 @@
+[
+  {
+    "bookSourceName": "书音FM",
+    "bookSourceUrl": "https://m.shuyinfm.com",
+    "bookSourceType": 1,
+    "bookSourceGroup": "有声小说",
+    "enable": true,
+    "ruleSearch": {
+      "searchUrl": "https://m.shuyinfm.com/search.php?keyword={{key}}&page={{page}}",
+      "bookList": ".book-list li",
+      "name": "h3@text",
+      "author": ".author@text",
+      "coverUrl": "img@src",
+      "bookUrl": "a@href"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": ".info .author@text",
+      "coverUrl": ".cover img@src",
+      "intro": ".intro@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": "audio@src",
+      "title": "h1@text"
+    }
+  },
+  {
+    "bookSourceName": "幻听网",
+    "bookSourceUrl": "https://m.huanting.cc",
+    "bookSourceType": 1,
+    "bookSourceGroup": "有声小说",
+    "enable": true,
+    "ruleSearch": {
+      "searchUrl": "https://m.huanting.cc/search.php?keyword={{key}}&page={{page}}",
+      "bookList": ".list-item",
+      "name": ".title@text",
+      "author": ".author@text",
+      "coverUrl": "img@src",
+      "bookUrl": "a@href"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": ".author@text",
+      "coverUrl": ".cover img@src",
+      "intro": ".desc@text"
+    },
+    "ruleToc": {
+      "chapterList": ".playlist li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": "audio@src",
+      "title": "h1@text"
+    }
+  }
+]
