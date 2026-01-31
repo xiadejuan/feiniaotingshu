@@ -1,0 +1,172 @@
+[
+  {
+    "name": "书音FM",
+    "url": "https://m.shuyinfm.com",
+    "ruleSearch": {
+      "keyword": "/search?keyword={{{KEYWORD}}}",
+      "bookList": ".book-item",
+      "name": ".book-name a",
+      "author": ".book-author",
+      "cover": ".book-cover img@src"
+    },
+    "ruleInfo": {
+      "bookName": ".detail-header h1",
+      "author": ".detail-author",
+      "intro": ".detail-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-play-source@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "焕听",
+    "url": "https://m.huanting.cc",
+    "ruleSearch": {
+      "keyword": "/search?q={{{KEYWORD}}}",
+      "bookList": ".book-item",
+      "name": ".book-title",
+      "author": ".book-author"
+    },
+    "ruleInfo": {
+      "bookName": ".book-title",
+      "intro": ".book-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-item",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-source@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "七八听书网",
+    "url": "https://www.ting78.com",
+    "ruleSearch": {
+      "keyword": "/search.php?keyword={{{KEYWORD}}}",
+      "bookList": ".list-item",
+      "name": ".book-name",
+      "author": ".book-author"
+    },
+    "ruleInfo": {
+      "bookName": ".book-title",
+      "intro": ".book-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-player@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "听神马",
+    "url": "https://www.tingsm.com",
+    "ruleSearch": {
+      "keyword": "/search.html?keyword={{{KEYWORD}}}",
+      "bookList": ".book-item",
+      "name": ".book-title",
+      "author": ".book-author"
+    },
+    "ruleInfo": {
+      "bookName": ".book-title",
+      "intro": ".book-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-src@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "听书网",
+    "url": "http://www.ting74.org",
+    "ruleSearch": {
+      "keyword": "/search.php?keyword={{{KEYWORD}}}",
+      "bookList": ".book-item",
+      "name": ".book-name",
+      "author": ".book-author"
+    },
+    "ruleInfo": {
+      "bookName": ".book-title",
+      "intro": ".book-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-player@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "乐听8",
+    "url": "https://www.leting8.com",
+    "ruleSearch": {
+      "keyword": "/search.php?keyword={{{KEYWORD}}}",
+      "bookList": ".book-item",
+      "name": ".book-name",
+      "author": ".book-author"
+    },
+    "ruleInfo": {
+      "bookName": ".book-title",
+      "intro": ".book-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".chapter-list li",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-src@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  },
+  {
+    "name": "猫耳FM",
+    "url": "https://www.missevan.com",
+    "ruleSearch": {
+      "keyword": "/search?keyword={{{KEYWORD}}}",
+      "bookList": ".sound-item",
+      "name": ".sound-title",
+      "author": ".user-name"
+    },
+    "ruleInfo": {
+      "bookName": ".sound-title",
+      "intro": ".sound-desc"
+    },
+    "ruleChapterList": {
+      "chapterList": ".episode-item",
+      "chapterName": "a",
+      "chapterUrl": "a@href"
+    },
+    "ruleContent": {
+      "content": ".audio-player@src",
+      "contentType": "audio"
+    },
+    "enable": true
+  }
+]
